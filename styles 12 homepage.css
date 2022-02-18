@@ -1,0 +1,153 @@
+html body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.tophome{
+    background-color: rgba(154, 184, 94, 0.911);
+    padding: 70px;
+    padding-top: 30px;
+    width: 1180px;
+    margin: auto;
+}
+.titlehome h1 a{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 0.4;
+    color: white;
+}
+.titlehome h1 a:hover{
+    color:rgba(85, 122, 10, 0.911);;
+}
+.joinhome{
+    text-align: right;
+    position: relative;
+    top: 25px;
+}
+.datehome{
+    font-size: 20px;
+    color: rgba(85, 122, 10, 0.911);
+}
+.linkshome ul{
+    word-spacing: 15px;
+}
+.linkshome li{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.linkshome a{
+    text-decoration: none;
+    color: white;  
+}
+.linkshome a:hover{
+    color: rgba(85, 122, 10, 0.911);
+}
+.flhome{
+    display: flex;
+    justify-content: space-between;
+}
+.noteshome{
+    text-align: center;
+}
+.noteshome h2{
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgba(85, 122, 10, 0.911);
+    position: relative;
+    top: 20px;
+}
+.noteshome p{
+    font-size: 20px;
+    line-height: 1.8;
+    color: white;
+}
+.noteshome a input{
+    padding: 20px;
+    border:solid;
+    background-color: inherit;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    width: 15%;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.noteshome a input:hover{
+    background-color: white;
+    color:rgba(85, 122, 10, 0.911) ;
+}
+.endhome{
+    background-color:rgba(154, 184, 94, 0.911) ;
+    padding: 30px;
+}
+.flehome{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.fthome p{
+    color:rgba(85, 122, 10, 0.911) ;
+}
+.ftlisthome ul{
+    word-spacing: 15px;
+}
+.ftlisthome li{
+    display: inline-block;
+    font-size: 14px;
+}
+.ftlisthome a{
+    text-decoration: none;
+    color: white;  
+}
+.ftlisthome a:hover{
+    color: rgba(85, 122, 10, 0.911);
+}
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.mainhome{
+    display: flex;
+    position: relative;
+    left: 30px;    
+}
+.mainhome a img{
+    width: 270px;
+    height: 180px;
+    border-radius: 5px;
+}
+.mainhome a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+}
+.mainhome a:hover{
+    color: rgb(224, 213, 213) ;
+}
+.mainhome h3{
+    font-size: 14px;
+    color: grey;
+    position: relative;
+    bottom: 100px;
+}
+.mainhome p{
+    width: 90%;
+    font-size: 16px;
+    text-align: left;
+    font-weight: lighter;
+    color: rgb(168, 161, 161);
+    word-spacing: -3px;
+}
+.Ahome{
+    position: relative;
+    left: 20px;
+}
+.Bhome{
+    position: relative;
+    left: 1px;
+}

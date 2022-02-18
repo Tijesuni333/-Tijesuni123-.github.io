@@ -1,0 +1,139 @@
+html{
+    background-color: #98cddbea;
+}
+header{
+    text-align: center;
+    font-size: 25px;
+}
+main{
+    border:hidden;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #faf4f4c5;
+    font-size: 16px;
+    text-align: center;
+}
+form{
+    margin: 20px;
+}
+.A{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    text-align: right;
+    position: relative;
+    right: 10px;
+    
+} 
+.B{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    
+}  
+/* Clear floats after the columns */
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.BI p{
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+.BI input[type=text] {
+    height:25px;
+    width:70%;
+    border: solid;
+    border-width:1px;
+    border-color: #d3d3d3;
+    border-radius: 4px;
+}
+.BI input[type=email] {
+    height: 25px;
+    width:70%;
+    border: solid;
+    border-width:1px;
+    border-color: #d3d3d3;
+    border-radius: 4px;
+}
+.BI input[type=number] {
+    height: 25px;
+    width:70%;
+    border: solid;
+    border-width:1px;
+    border-color: #d3d3d3;
+    border-radius: 4px;
+}
+.BI label{
+    position: relative;
+    top: 4px;
+}
+.event select{
+    border: solid;
+    border-width:1px;
+    border-color: #d3d3d3;
+    border-radius: 4px;
+}
+.name{
+    position: relative;
+    top: 40px;
+}
+.email{
+    position: relative;
+    top: 60px;
+}
+.number{
+    position: relative;
+    top: 80px;
+}
+.event select{
+    height:33px;
+    width:30%;
+}
+.event{
+    position: relative;
+    top: 100px;
+}
+.TOD{
+    line-height: 30px;
+    position: relative;
+    top: 120px;
+}
+.FEL{
+    line-height: 30px;
+    position: relative;
+    top: 150px;
+}
+.FEL span{
+    position: relative;
+    bottom:10px;
+}
+.ESS{
+    position: relative;
+    top: 180px;
+}
+.ESS textarea{
+    border: solid;
+    border-width:1px;
+    border-color: #d3d3d3;
+    border-radius: 4px;
+}
+.SUB input{
+    background-color: #7a9bda;
+    color: #ffffff;
+    width: 90px;
+    height: 40px;
+    font-size: 17px;
+    border: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top:200px;
+}

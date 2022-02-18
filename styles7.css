@@ -1,0 +1,139 @@
+html{
+    background-image:url(img/survey-form-background\ img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+html::before{
+    content: "";
+    background: rgba(58, 58, 136, 0.7);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+header{
+    text-align: center;
+    color:white;
+    line-height: 20px;
+    position: relative;
+    top: 20px;
+    font-weight: lighter;
+}
+.F{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #f5f5f5;
+    position: relative; 
+    top: 40px;
+}
+form{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: left;
+    position: relative;
+}
+form::before{
+    content: "";
+    background-color: #0c0c44;
+    opacity: 0.8;
+    border: hidden;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.ABC input{
+    height: 30px;
+    width:92%;
+    font-size: 17px;
+    color: grey;
+    border-radius: 4px;
+    border: solid;
+    border-color: white;
+}
+.ABC input:focus{
+   outline-color: rgb(99, 99, 233);
+    outline-style: solid;
+    outline-width:3px;
+    border:none;
+}
+.radio input{
+    width:4%;
+}
+.check input{
+    width:4%;
+}
+
+.select1 select{
+    height: 40px;
+    width:93.5%;
+    font-size: 17px;
+    color: grey;
+    border-radius: 4px;
+    border: solid;
+    border-color: white;
+}
+.select1 select:focus{
+    outline-color: rgb(118, 118, 252);
+    outline-style: solid;
+    outline-width:4px;
+    border:none;
+}
+.select2 select{
+    height: 40px;
+    width:93.5%;
+    font-size: 17px;
+    color: grey;
+    border-radius: 4px;
+    border: solid;
+    border-color: white;
+}
+.select2 select:focus{
+    outline-color: rgb(118, 118, 252);
+    outline-style: solid;
+    outline-width:4px;
+    border:none;
+}
+.TA textarea{
+    font-size: 17px;
+    width:93%;
+    color: grey;
+
+}
+.SUB input{
+    background-color: rgb(27, 150, 99);
+    color:white;
+    border:hidden;
+    width: 645px;
+    height:50px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.Aa{
+    line-height:40px;
+}
+.Bb{
+    line-height:40px;
+}
+.Cc{
+    line-height:40px;
+}
+.Dd{
+    line-height:40px;
+}
+.Ee{
+    line-height:40px;
+}
+.TA{
+    line-height:40px;
+}

@@ -1,0 +1,213 @@
+html body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Aa{
+    padding: 150px;
+    text-align: center;
+    position: relative;
+}
+.Aa::before{
+    content: "";
+    background-image: url(img/arian-darvishi-wh-RPfR_3_M-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.a1{
+    color: white;
+    position: relative;
+    
+}
+.a1 h1{
+    font-size: 40px;
+  
+}
+.a1 p{
+    font-size: 18px;
+    width: 80%;
+    position: relative;
+    left: 100px;
+}
+.a1 a{
+    padding: 20px;
+    background-color: rgb(49, 45, 45);
+    color:white;
+    border: solid;
+    border-width: 0.1px;
+    border-color: rgb(121, 113, 113);
+    font-size: 17px; 
+    cursor: pointer; 
+    text-decoration: none; 
+}
+.a1 a:hover{
+    background-color: rgb(247, 240, 240);
+    color: black;
+}
+
+.Bb{
+    padding: 20px;
+    background-color: rgb(238, 236, 236);
+    text-align: center;
+    opacity: 0.9;
+    line-height:1.7;
+}
+.Bb h2{
+    font-size: 27px;
+}
+.Bb p{
+    column-count: 2;
+    column-gap: 50px;
+    width: 70%;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    left: 170px;
+    text-align: justify;
+}
+#Cc{
+    padding: 40px;
+    column-count: 3;
+    background-color: #252323;
+    max-width:100%;
+    min-width: 100%;
+}
+.c1{
+    border: hidden;
+    background-color: #ffffff;
+    width: 65%;
+    min-width: 65%;
+    margin-left: 200px;
+    position: relative;
+    left: 20px;
+}
+.c1 img{
+    width: 100%;
+    opacity: 0.9;
+}
+.c1a{
+    text-align: center;
+    padding: 20px;
+    line-height: 1.8;
+}
+.c1a p{
+    font-size: 18px;
+}
+.c1a h2{
+    font-size:20px;
+}
+.c2{
+    border: hidden;
+    background-color: white;
+    width: 65%;
+    min-width: 65%;
+    position: relative;
+    left: 80px;
+}
+.c2 img{
+    width: 100%;
+    opacity: 0.9;
+}
+.c2a{
+    text-align: center;
+    padding: 20px;
+    line-height: 1.8;
+}
+.c2a p{
+    font-size: 18px;
+}
+.c2a h2{
+    font-size:20px;
+}
+.c3{
+    border: hidden;
+    background-color: white;
+    width:65%;min-width: 65%;
+
+    position: relative;
+    right: 60px;
+}
+.c3 img{
+    width: 100%;
+    opacity: 0.9;
+}
+.c3a{
+    text-align: center;
+    padding: 20px;
+    line-height: 1.8;
+}
+.c3a p{
+    font-size: 18px;
+}
+.c3a h2{
+    font-size:20px;
+}
+.Dd{
+    padding:50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.Dd h2{
+    font-size: 27px;
+}
+.Dd p{
+    font-size: 17px;
+    width: 70%;
+    position: relative;
+    left: 170px;
+}
+.Ee{
+    column-count: 2;
+    column-gap: 0px;
+    text-align: center;
+    color: #ffffff;
+}
+.Ee h2{
+    font-size: 25px;
+}
+.Ee p{
+    font-size: 17px;
+    width: 100%;
+    position: relative;
+    line-height: 1.6;
+}
+.Ee span{
+    font-size: 18px;
+}
+.e1{
+    background-color: #1883c0;
+    padding:53px;
+}
+.e2{
+    background-color: rgb(37, 35, 35);
+    padding: 45px;
+}
+.Ff{
+    padding: 20px;
+    column-count: 2;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.Ff p{
+    font-size: 17px;
+}
+.f2 a{
+    text-decoration: none;
+    color: #1883c0;
+}
+.f2 p{
+    position: relative;
+    top: 20px;
+}

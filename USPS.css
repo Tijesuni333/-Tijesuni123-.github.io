@@ -1,0 +1,60 @@
+body{
+    background-color: #e8eeee;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 60%;
+    background-color: white;
+}
+h1{
+    color: #5a40b6;
+}
+h3{
+    color: #352f49;
+}
+form{
+    color: #c94041;
+    background-color: #f6fafb;
+    padding: 2rem;
+}
+input{
+    border: hidden;
+    width: 90%;
+    height: 3rem;
+}
+label{
+    text-decoration: underline;
+}
+.sec-3{
+    display: flex;
+    background-color: #f6fafb;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.progress{
+    margin-top: 4rem;
+}
+.progress p{
+    text-align: center;
+}
+svg{
+    width: 10rem;
+}
+img{
+    width: 20rem;
+}
+p{
+    font-family: trebuchet ms,arial,sans-serif;
+}
+.progress p{
+    font-weight: bold;
+}
+.delivery{
+    line-height: 0.7rem;
+}
+h4{
+    line-height: 1rem;
+}

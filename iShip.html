@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iShip Track It-Track your package</title>
+        <link rel="stylesheet" href="iShip.css">
+    </head>
+    <body>
+        <section class="container">
+        <div class="home">
+            <img src="img/iship_small_logo.gif" alt="iship_small_logo">
+            <h2>SHIPPING TOOLS</h2>
+        </div>
+        <div class="sec-1">
+            <h3>Track Your Package</h3>
+            <select name="language" id="language">
+                <option value="1"><a href="#">English(US)</a></option>
+                <option value="2"><a href="#">English(CA)</a></option>
+                <option value="3"><a href="#">Francais(CA)</a></option>
+                <option value="4"><a href="#">Espanol(MX)</a></option>
+            </select>
+        </div>
+        
+        <div class="sec-2">
+            <p class="sec-2p">Please make sure the tracking number is correct, select a carrier from the list below, and click on Submit.</p>
+            <div class="CTN">
+                    <label for="number">Carrier Tracking Number / iShip ID:</label><br>
+                    <input type="number" name="number" id="number" min="1" max="22">
+                    <a href="USPS.html"><input type="submit" value="Submit"></a>
+                    <a href="https://iship.com/"><input type="submit" value="Close"></a>  
+            </div>
+            <br>
+            <label for="carrier">Carrier:</label><br>
+            <select name="carrier" id="carrier">
+                <option value="1">(Select One)</option>
+                <option value="2">iShip</option>
+                <option value="3">FedEx</option>
+                <option value="4">UPS</option>
+                <option value="5">USPS</option>
+            </select><br><br>
+            <label for="date">Ship Date (+/- 4 days):</label><br>
+            <input type="date" name="date" id="date">
+        </div>
+        <div class="sec-3">
+            <p class="track">  Tracking provided for</p>
+            <img src="img/logo_UPS.png" alt="logo ups">
+            <img src="img/logo_USPS.png" alt="logo usps">
+            <div class="links">
+            <a href="https://iship.com/trackit/info.aspx?info=11&ACCT=AISHIP">Learn More</a>
+            <a href="https://iship.com/trackit/info.aspx?info=11&ACCT=AISHIP">Having trouble?Click here for help.</a>
+            <a href="https://iship.com/PrivacyNotice.aspx"> iShip, Inc. Privacy Notice</a>
+            </div>
+            <p class="end">  © 1998 - 2022 iShip, Inc. iShip, the iShip logo, Price It, Track It, Sell It, and Shipping Insight are trademarks of iShip, Inc. iShip, Inc. is a subsidiary of United Parcel Service of America, Inc. Logo and marks used by permission. All rights reserved</p>
+        </div>
+        </section>
+    </body>
+</html>

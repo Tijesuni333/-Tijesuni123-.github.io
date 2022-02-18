@@ -1,0 +1,62 @@
+html{
+    background-color: #cbd0d6;
+}
+
+header{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+header h1{
+    font-weight:lighter;
+    font-size: 35px;
+    color:#4169e1 ;
+}
+header h2{
+    font-weight: lighter;
+    color: #008000;
+}
+section{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+img{
+    width:200px ;
+    height:280px ;
+}
+label{
+    font-weight: bolder;
+    font-size: 14px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+main ul{
+    font-size: 14px;
+    font-weight: lighter;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.quote{
+    margin-left: 30px;
+}
+.quote span{
+    font-size: 20px;
+}
+.endnote{
+    font-size: 19px;
+    font-weight: normal;
+}
+.endnote p{
+    color: #990e99;
+}
+.endnote p a{
+    color: #4169e1;
+    text-decoration: none;
+}

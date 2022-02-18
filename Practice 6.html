@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Good vibes Form</title>
+        <link rel="stylesheet" href="Styles 6.css">
+    </head>
+    <body>
+        <header>
+            <h1>Good Vibes Form</h1>
+        </header>
+        <main>
+            <form action="action_page.php">
+                <div class="BI">
+                    <p>Tell us something positive that happened to you today.</p>
+                    <div class="name">
+                    <div class="A">
+                    <label for="name">Name</label>
+                    </div>
+                    <div class="B">
+                    <input type="text" name="name" id="name"  placeholder="Enter your name">
+                    </div>
+                    </div>
+                    <br><br>
+                    <div class="email">
+                    <div class="A">
+                    <label for="email">Email</label>
+                    </div>
+                    <div class="B">
+                    <input type="email" name="email" id="email"  placeholder="Enter your email address">
+                    </div>
+                    </div>
+                    <br><br>
+                    <div class="number">
+                    <div class="A">
+                    <label for="number">On a scale of 1-10, how good was it?</label>
+                    </div>
+                    <div class="B">
+                    <input type="number" name="number" id="number" min="1" max="10" size="700" placeholder="Enter a number between 1 and 10">
+                    </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="event">
+                    <div class="A">
+                    <label for="selectors">Where did it happen?</label>
+                    </div>
+                    <div class="B">
+                    <select name="event" id="event" >
+                        <option value="1">At home</option>
+                        <option value="2">On my commute</option>
+                        <option value="3">At work</option>
+                        <option value="4">On the street</option>
+                        <option value="5">Others</option>
+                    </select>
+                    </div>
+                </div>
+                <br><br>
+                <div class="TOD">
+                    <div class="A">
+                    <label for="TOD">At what time of day did it happen?</label>
+                    </div>
+                    <div class="B">
+                    <input type="radio" name="TOD" id="TOD" value="Morning">
+                    <label for="TOD">Morning</label><br>
+                    <input type="radio" name="TOD" id="TOD" value="Afternoon">
+                    <label for="TOD">Afternoon</label><br>
+                    <input type="radio" name="TOD" id="TOD" value="Evening">
+                    <label for="TOD">Evening</label>
+                    </div>
+                </div>
+                <br><br>
+                <div class="FEL">
+                    <div class="A">
+                    <label for="FEL">What emotions did you experience?<br><span>(Select all that apply)</span></label>
+                    </div>
+                    <div class="B">
+                    <input type="checkbox" name="FEL 1" id="FEL 1" value="Excited">
+                    <label for="FEL 1">Excited</label><br>
+                    <input type="checkbox" name="FEL 2" id="FEL 2" value="Humbled">
+                    <label for="FEL 2">Humbled</label><br>
+                    <input type="checkbox" name="FEL 3" id="FEL 3" value="Elated">
+                    <label for="FEL 3">Elated</label><br>
+                    <input type="checkbox" name="FEL 4" id="FEL 4" value="Loved">
+                    <label for="FEL 4">Loved</label><br>
+                    <input type="checkbox" name="FEL 5" id="FEL 5" value="Enthusiastic">
+                    <label for="FEL 5">Enthusiastic</label>
+                    </div>                    
+                </div>
+                <br><br>
+                <div class="ESS">
+                    <div class="A">
+                    <label for="essay">Please describe your positive experience.</label>
+                    </div>
+                    <div class="B">
+                    <textarea name="essay" id="ESS" cols="35" rows="4" placeholder="Enter your experience here..."></textarea> 
+                </div>
+                </div>
+                <br>
+                <div class="SUB">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+        </main>
+    </body>
+</html>

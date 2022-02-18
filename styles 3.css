@@ -1,0 +1,97 @@
+header{
+    border: solid;
+    border-width: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-color: #f7f2f2;
+}
+div p{
+    text-align: center;
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+    color: #808080;
+    opacity: 0.2;   
+    position: relative;
+    left: 200px;
+}
+.main { display:flex;
+justify-content: space-between;
+flex-direction: row;
+line-height: 2;}
+.group1 { flex-basis:60%;
+    margin-left: 100px;
+    line-height:1.5;
+}
+.group1 table{
+    font-size: 15px;
+    word-spacing: 4px;
+    border-collapse: collapse;
+    line-height: 1.5;
+}
+.group1 th{
+    width: 15%;
+    word-spacing: 1px;
+    border-top: solid;
+    border-color:#dfd4d4;
+    border-width:2px;
+   
+}
+.group1 td{  
+    border-bottom: solid;
+    border-color: #dfd4d4;
+    border-width:2px;
+    background-color: #f7f2f2;
+    border-bottom-width:1px;
+    border-top-width: 1px;   
+}
+.group2 { flex-basis:5%;
+         position: relative;
+         bottom: 40px;
+         margin-right: 100px;
+         line-height:0.9;
+        }
+.group2 div{
+    text-align: center;
+}
+.group2 div img{
+    width: 250px;
+    height: 250px;
+}
+.group2 table{
+    border-color: #dfd4d4;
+    border-collapse: collapse;
+    font-size: 15px;
+    word-spacing: 4px;
+    border-width:1.5px;
+}
+.group2 th{
+    width:2% ;
+    line-height: 1.5;
+}
+.group2 td{
+    width: 20%;
+    border-bottom: solid;
+    border-width:1px ;
+    border-color: #dfd4d4;
+    text-align: center;
+    line-height: 0.9;
+    
+}
+section p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    border: hidden;
+    background-color:#dfd4d4;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer span{
+    color: #2626f1;
+}

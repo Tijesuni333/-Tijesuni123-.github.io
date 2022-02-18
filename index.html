@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>creating html forms</title>
+    <link rel="stylesheet" href="">
+    </head>
+<body>
+
+<h1>USER DATA</h1>    
+<label for="username"> Enter username</label>
+<input type="text" id="username" name="username" placeholder="username" required>
+<br><br>
+
+<label for="email">enter Email</label>
+<input type="email" id="email" name="email" placeholder="email" required> 
+<br><br>
+
+<label for="date">Date of birth</label>
+<input type="date" name="date" id="date" required>
+<br><br>
+<label for="password">enter password</label>
+<input type="password" id="password" name="password" placeholder="password" required>
+<br><br>
+<p>select your age </p>
+<input type="radio" name="age"value="1-2" id="category 1">
+<label for="age">1-2 </label>
+<br><br>
+<input type="radio" name="age" value="3-4" id="category 2">
+<label for="age">3-4</label>
+<br><br>
+<input type="radio" name="age" value="7-8" id="category 3">
+<label for="age">7-8</label>
+<br><br>
+<label for="questions">Security questions</label>
+<select name="questions" id="questions">
+    <option value="q1">wat is ur name</option>
+    <option value="q2">wat is ur age</option>
+    <option value="q3">wat is ur year</option>
+</select>
+<br>
+<label for="answer">ur answer</label>
+<input type="text" name="answer" id="answer">
+<br><br>
+<label for="comments">drop ur comments</label><br>
+<textarea name="comments" id="comments" cols="30" rows="10" placeholder="comments...."></textarea>
+<br><br>
+<input type="submit" value="submit ur form">
+</body>
+</html>

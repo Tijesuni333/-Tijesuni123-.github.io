@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>survey form 2</title>
+        <link rel="stylesheet" href="styles7.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <style>
+        body{
+          font-family: "Poppins", sans-serif;
+        }
+        .F input{
+            font-family: "Poppins", sans-serif;
+        }
+        .select1 select{
+            font-family: "Poppins", sans-serif;
+        }
+        .select2 select{
+            font-family: "Poppins", sans-serif;
+        }
+        </style>
+    </head>
+    <body><br>
+        <div class="body">
+        <header>
+            <h1>freeCodeCamp Survey Form</h1>
+            <p> <em> Thank you for taking the time to help us improve the platform </em></p>
+        </header>
+        <form action="/action_page.php">
+            <div class="F">
+            <div class="ABC">
+            <div class="Aa">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <br>
+            <div class="Bb">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your Email">
+            </div>
+            <br>
+            <div class="Cc">
+            <label for="Age">Age (optional)</label><br>
+            <input type="number" name="age" id="age" placeholder="Age">
+            </div>
+            </div>
+            <br>
+            <div class="select1">
+            <div class="Dd">
+            <label for="selector">Which option best describes your current role?</label><br>
+            <select name="role" id="role">
+            <option value="none"selected disabled>Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">full time job</option>
+            <option value="3">full time learner</option>
+            <option value="4">prefer not to say</option>
+            <option value="5">Other</option>
+            </select>
+            </div>
+            </div>
+            <br>
+            <div class="radio">
+            <label for="radio">Would you recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" name="MIND" id="MIND" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="MIND">Definitely</label><br>
+            <input type="radio" name="MIND" id="MIND"  style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="MIND">Maybe</label><br>
+            <input type="radio" name="MIND" id="MIND"  style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="MIND">Not sure</label>
+            </div>
+            <br>
+            <div class="select2">
+            <div class="Ee">
+            <label for="selector">What is your favorite feature of freeCodeCamp?</label><br>
+            <select name="OPT" id="OPT">
+                <option value="none" selected disabled>Select an option</option>
+                <option value="1">Challenges</option>
+                <option value="2">Projects</option>
+                <option value="3">Community</option>
+                <option value="4">Open source</option>
+            </select>
+            </div>
+            </div>
+            <br>
+            <div class="check">
+            <label for="checkbox">What would you like to see improved? (Check all that apply)</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Front-end Projects</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Back-end Projects</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Data Visualization</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Challenges</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Open Source Community</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Gitter help rooms</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Videos</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">City Meetups</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Wiki</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Forum</label><br>
+            <input type="checkbox" name="PRO" id="PRO" style="height:20px; width:30px; vertical-align: -3px;">
+            <label for="PRO">Additional Courses</label><br>
+            </div>
+            <br>
+            <div class="TA">
+            <label for="textarena">Any comments or suggestions?</label><br>
+            <textarea name="comment" id="comment" cols="85" rows="7" placeholder="Enter your comments here....."></textarea>
+            </div>
+            <br>
+            <div class="SUB">
+            <input type="submit" value="Submit">
+            </div>
+            </div>
+            <br><br><br><br><br>
+        </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+html{
+    background-color: #fafad2;
+    border:solid;
+    border-color: #ffffff;
+    border-top-width: 20px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-bottom-width: 10px;
+}
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: #e2dddd;
+    font-size: 15px;
+    color: #2e2d2d;
+}
+fieldset{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: -2px;
+}
+header p{
+    text-indent: 20px;
+}
+.gender{
+    line-height: 0.3;
+}
+.form{
+    line-height: 0.2;
+}
+.box2 p{
+    position: relative;
+    bottom: 10px;
+}
+.box3{
+    letter-spacing: -1px;
+}
+.box4{
+    letter-spacing: -1px;
+}
+.box4 input{
+    background-color: #ff0000;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    border: hidden;
+    border-radius: 2px;
+}
+.box4 p input{
+    background-color: #ff0000;
+    color: white;
+    width: 210px;
+    height: 30px;
+    font-size: 20px;
+    border: hidden;
+    border-radius: 2px;
+}
+.box4 p{
+    text-align: center;
+}

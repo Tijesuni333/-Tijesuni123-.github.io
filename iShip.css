@@ -1,0 +1,72 @@
+.container{
+    text-align: left;
+    margin-right: 40rem;
+    width: 43%;
+}
+.home{
+    display: flex;
+    align-items: baseline;
+}
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1167b0;
+    position: relative;
+    bottom: 0.8rem;
+    height: 3rem;
+    align-items: center;
+}
+.sec-1 select{
+    height: 1.2rem;
+    margin-right: 1rem;
+}
+.sec-2p{
+    color: #ff1312;
+    font-family: trebuchet ms,arial,sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.track{
+    font-family:  trebuchet ms,arial,sans-serif;
+    font-size: 0.7rem;
+   
+}
+.end{
+    font-family:  trebuchet ms,arial,sans-serif;
+    font-size: 0.7rem;
+}
+.CTN label{
+    color: #e27b2d;
+    font-family:trebuchet ms,arial,sans-serif ;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+h2{
+    color: #003399;
+    font-size: 1.1rem;
+    font-family: Verdana;
+}
+h3{
+    color: white;
+    margin-left: 1rem;
+    font-family:  trebuchet ms,arial,sans-serif;
+}
+a{
+    font-family:  trebuchet ms,arial,sans-serif;
+    font-size: 0.7rem;
+    color: blue;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+input[type=number]{
+    width: 36%;
+}
+input[type=date]{
+    width: 36%;
+}
+select[name=carrier]{
+    width: 37%;
+}
