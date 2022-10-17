@@ -4,10 +4,12 @@ html body{
     margin: 0px;
     padding: 0px;
 }
+a:hover{
+ color: rgba(85, 122, 10, 0.911);
+}
 .container{
     text-align: center;
     margin:0 auto;
-    width: 60%;
     max-width: 900px;
     min-width: 400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -115,12 +117,12 @@ h5{
     top: 0.1rem;
 }
 .section-3{
-    background-color:red ;
+    background-color:#293f50 ;
     padding-bottom: 1.7rem;
     padding-top: 1.7rem;
 }
-@media screen and (max-width:400px) {
-    .section-3{
-        background-color: yellow;
+@media (max-width:500px) {
+    .section-3,.section-1{
+        background-color: #818134;
     }
 }

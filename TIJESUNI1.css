@@ -1,0 +1,8 @@
+.start{
+    border: solid;
+    color: green;
+    margin: 100px;
+}
+.stop{border: solid;
+    color: red;
+    margin: 100px;}

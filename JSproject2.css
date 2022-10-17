@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+}
+main{
+    padding: 13rem;
+    text-align: center;
+}
+header{
+    font-size: 3rem;
+}
+.value{
+    font-size: 4rem;
+}
+
+button{
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: inherit;
+    border-radius: 0.7rem;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.increase{
+    position: relative;
+    left: 1rem;
+}
+.decrease{
+    position: relative;
+    right: 1rem;
+}

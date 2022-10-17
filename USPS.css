@@ -33,9 +33,7 @@ label{
     background-color: #f6fafb;
     justify-content: space-between;
     padding: 2rem;
-}
-.progress{
-    margin-top: 4rem;
+    align-items: flex-start;
 }
 .progress p{
     text-align: center;
@@ -49,12 +47,24 @@ img{
 p{
     font-family: trebuchet ms,arial,sans-serif;
 }
+.date{
+    width: 20rem;
+}
 .progress p{
     font-weight: bold;
 }
-.delivery{
-    line-height: 0.7rem;
-}
 h4{
     line-height: 1rem;
+}
+.arrow{
+    display: flex;
+}
+.dates{
+    padding: 2rem;
+    color: white;
+    background-color: black;
+    width: 4rem;
+}
+i{
+    color: red;
 }
