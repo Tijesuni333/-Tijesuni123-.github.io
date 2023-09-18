@@ -1,0 +1,169 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;   
+}
+header{
+    color: #DBA974;
+    background-color: #251C2F;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-bar{
+    display: none;
+}
+.imglogo{
+    width: 40%;
+}
+.navlinks{
+    margin-right: 4rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.navlinks a{
+    text-decoration: none;
+    color: #DBA974;
+    font-size: 1.0rem;
+    margin-right: 3rem;
+}
+.content{
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+}
+.contentnote{
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+}
+.explore{
+    padding: 1rem;
+    background-color: inherit;
+    border: solid;
+    border-color: #DBA974;
+    margin-top: 3rem;
+}
+.explore a{
+    color: #DBA974;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+/* about us */
+#about{
+    height: 70vh;
+    text-align: center;
+}
+#products{
+    height: 70vh;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#prices{
+    height: 70vh;
+    text-align: center;
+}
+footer{
+    background-color: whitesmoke;
+    height: 40vh;
+}
+.footnote{
+    text-align: center;
+    font-size: 1.5rem;
+   padding-top: 7rem;
+   letter-spacing: 0.3rem;
+   color: #DBA974;
+}
+h2{
+    font-size: 3rem;
+}
+span{
+    color: #DBA974;
+}
+
+@media (max-width:600px){
+    header{
+        height: 100vh;
+    }
+   .navbar{
+    flex-direction: column;
+    background-color: white;
+   
+   }
+   .navimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   }
+   .imglogo{
+    width: 20%;
+    padding: 1rem;
+   }
+   .navlinks{
+    position: relative;
+    right: 7.5rem;
+    bottom: 1rem;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s linear;
+    }
+    .showlinks{
+        height: 190px;
+    }
+    ul{
+        display: inline-block;
+    }
+    .navlinks a{
+    font-size: 1.3rem;
+    line-height: 1.9;
+    }
+    .navlinks a:hover{
+        color: #251C2F;
+    }
+   .icons-bar{
+    display: contents;
+   }
+   .icons-bar a{
+    color: #DBA974;
+    margin-right: 3rem;
+   }
+   .icons-bar a:hover{
+    color: #251C2F;
+   }
+
+   h1{
+    font-size: 3rem;
+   }
+   .content{
+    margin-top: 8rem;
+   }
+   .contentnote{
+    font-size: 1rem;
+    width: 80%;
+   
+   }
+   .explore{
+    padding: 0.7rem;
+    }
+    .explore a{
+    font-size: 1rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .footnote{ 
+    font-size: 1rem;
+    padding: 2rem;
+    padding-top: 7rem;
+    letter-spacing: 0.2rem;
+    }
+}

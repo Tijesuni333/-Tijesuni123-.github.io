@@ -1,0 +1,86 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;   
+}
+.preload{
+  background-color: whitesmoke;
+  height: 100vh;
+}
+img{
+  width: 30%;
+  margin-left: 33rem;
+  margin-top: 7rem;
+}
+.main{
+  visibility: hidden;
+}
+.visible{
+  visibility:visible;
+}
+video{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+h1{
+  font-size: 10rem;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background-color:inherit;
+  border: solid;
+  border-color: white;
+  color: white;
+  border-radius: 1rem;
+  z-index: 2;
+}
+main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 38, 38, 0.7);
+  z-index: 1;
+  opacity: 1;
+}
+.button{
+  position: absolute;
+  bottom: 5rem;
+  left: 10rem;
+  z-index: 2;
+  width: 15%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ 
+}
+span{
+  cursor: pointer;
+  font-size: 1rem;
+  color: red;
+}
+.switch{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 0.5rem;
+  background-color: red;
+  transition: all 0.3s linear
+ 
+}
+.slide{
+  left: 50%;
+}

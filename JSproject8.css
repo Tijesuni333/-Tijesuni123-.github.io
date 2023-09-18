@@ -1,0 +1,77 @@
+body{
+    background-color: whitesmoke;
+}
+header{
+    text-align: center;
+    line-height: 1rem;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 6rem;
+}
+.line{
+    border-top: solid;
+  padding-bottom: 2rem;
+    margin-left:39rem;
+    margin-right:39rem;
+    border-width: 0.3rem;
+    border-color:rgb(165, 102, 102);
+}
+
+nav{
+    text-align: center;
+}
+button{
+    padding: 0.5rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    margin: 0.5rem;
+    border-radius: 0.4rem;
+    border-left-color:rgb(165, 102, 102);
+    border-top-color: rgb(165, 102, 102);
+    background-color: inherit;
+    font-size: 1rem;
+    color:rgb(165, 102, 102);
+    cursor: pointer;
+}
+button:hover{
+    background-color: #a56666;
+    color: white;
+}
+img{
+    width: 40%;
+    border: solid;
+    color:#a56666;
+    border-radius: 0.4rem;
+    border-width:0.3rem;
+    margin-right: 1rem;
+    float: left;
+}
+
+main{
+    padding: 5rem;
+}
+.menulist{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+}
+.foodt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3{
+    letter-spacing:0.3rem;
+    font-size: 1rem;
+}
+hr{
+    border: dotted;
+    border-width: thin;
+    border-bottom-width: 0rem;
+}
+span{
+   color:#a56666;
+   font-weight: bold;
+   text-align: end;
+}

@@ -8,13 +8,12 @@ html{
 }
 html::before{
     content: "";
-    background: rgba(58, 58, 136, 0.7);
+    background: #3b3b87b3;
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-
 }
 header{
     text-align: center;

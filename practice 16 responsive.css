@@ -5,14 +5,14 @@ html body{
     padding: 0px;
 }
 a:hover{
- color: rgba(85, 122, 10, 0.911);
+ color: #557a0ae8;
 }
 .container{
     text-align: center;
-    margin:0 auto;
+    margin: auto;
     max-width: 900px;
     min-width: 400px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .section-1{
     background-color: #293f50;

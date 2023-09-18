@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: azure;
+   
+}
+.fullpage{
+    display: flex;
+    justify-content: space-between;
+    
+}
+img{
+    width: 70%;
+}
+.side{
+    width: 30%;
+    height: 100vh;
+    background-color: #262629;
+    transform: translate(-100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.appear{
+    transform: translate(0);
+}
+.logo{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xbar{
+    border: none;
+    background-color: inherit;
+}
+.xbar a{
+    color: red;
+}
+
+.link ul{
+    padding: 0;
+}
+.link li{
+    list-style: none;
+}
+.link a{
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.link a:hover{
+    background-color: white;
+    color: black;
+}
+.icons a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.icons a:hover{
+    color: blue;
+}
+.icons li{
+    list-style: none;
+}
+.icons ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14em;
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.drop{
+    width: 70%;
+    text-align: right;
+    padding: 1rem;
+}
+.baricon{
+    background-color: inherit;
+    border: none;
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.baricon a{
+    color: blue;
+}
+.baricon a:hover{
+    color: rgb(47, 47, 175);
+}
+@media (max-width:840px){
+    .side{
+        width: 100%;
+    }
+    .logo{
+        padding-right: 2rem;
+    }
+    .drop{
+        display: contents;
+    }
+    .show{
+        display: none;
+    }
+    .icons ul{
+        padding-top: 12em;
+        width: 30%;
+        margin-left: 8rem;
+    }
+}

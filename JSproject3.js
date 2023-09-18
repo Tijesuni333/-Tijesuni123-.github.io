@@ -25,49 +25,49 @@ const reviews = [
         img:"img/shay-howe.jpg" 
     }
 ]
-const image = document.getElementById('image');
-const notes = document.querySelector('.notes');
-const name = document.querySelector('.name');
-const title = document.querySelector('.title');
 
-const nextbtn=document.querySelector('.nextbtn');
-const prevbtn= document.querySelector('.prevbtn');
-const randombtn= document.querySelector('.randombtn');
+
+
+const name =document.querySelector('.name');
+const job =document.querySelector('.title');
+const notes =document.querySelector('.notes');
+const image =document.getElementById('image');
+
+const prevBtn = document.querySelector('.prevbtn');
+const nextBtn = document.querySelector('.nextbtn');
+const randomBtn = document.querySelector('.randombtn');
 
 let currentReview = 0;
 
 const windowDisplay =()=>{
-    const items =reviews[currentReview];
-    image.src = items.img;
-    title.textContent= items.job;
-    notes.textContent=items.notes;
-    name.textContent= items.name; 
+   const items = reviews[currentReview];
+   image.src = items.img;
+   job.textContent= items.job;
+   notes.textContent=items.notes;
+   name.textContent= items.name; 
+
 }
-window.addEventListener('DOMContentLoaded',windowDisplay);
+window.addEventListener('DOMContentLoaded', windowDisplay);
 
-nextbtn.addEventListener('click',()=>{
-  currentReview++;
-  if(currentReview>= reviews.length){
-    currentReview= 0;
-  }
- 
-  windowDisplay();
-});
 
-prevbtn.addEventListener('click',()=>{
+
+nextBtn.addEventListener('click',()=>{
+    currentReview++;
+    if(currentReview >= reviews.length){
+        currentReview=0;
+    }
+   windowDisplay();
+})
+
+prevBtn.addEventListener('click',()=>{
     currentReview--;
     if(currentReview < 0){
-        currentReview=reviews.length-1;
+        currentReview= reviews.length - 1;
     }
-    
-    windowDisplay();
-});
-
-randombtn.addEventListener('click',()=>{
-    currentReview = randomProfile();
-    windowDisplay();
-    console.log(currentReview);
+   windowDisplay();
 })
-randomProfile=()=>{
-    return Math.floor(Math.random()*reviews.length);
-};
+
+randomBtn.addEventListener('click',()=>{
+    currentReview = Math.floor(Math.random() * reviews.length)
+   windowDisplay();
+})

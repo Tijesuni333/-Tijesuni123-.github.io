@@ -1,0 +1,206 @@
+html body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+  background-color: white;
+  margin: auto;
+}
+.stamalogo{
+    width: 20%;
+   margin-left: 3rem;
+   padding: 1rem;
+  
+}
+
+.links{
+  flex-basis: 60%; 
+  margin-right: 3rem;
+}
+.links li{
+  display: inline;
+  padding:0.5rem ;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  
+ 
+}
+
+.links a{
+    text-decoration: none;
+    color: #B5B5B5;
+}
+hr{
+    display: inline;
+    border: solid;
+    border-width: thin;
+    margin-left: 1.5rem;
+    color: #B5B5B5;
+
+}
+strong{
+    color: #1A1C21;
+}
+
+span{
+ 
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #1A1C21;
+    margin-left: 1.5rem;
+}
+
+.stamaintro{
+    background-image: url(images/TJVZ.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.introtext{
+    flex-basis: 60%;
+}
+.animate{
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+@keyframes example {
+    0%   {bottom:200px; }
+    100% {bottom:0px;}
+  }
+
+h2{
+    font-size: 4.5rem;
+    color: white;
+
+}
+p{
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    color: white;
+    
+    
+}
+.introimages{
+    flex-basis: 60%;
+    width:100%;
+    height: 34rem;
+}
+.signup{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem ;
+    font-size: 1rem; 
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #33B4EB;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* pricing */
+
+
+/* meet the team */
+.container{
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamphoto{
+    width: 100%;
+    border-radius: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+    text-align: left;
+    color: #b6c1d4;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+h4{
+    text-align: left;
+    color: #b6c1d4;
+}
+.teamperson{
+    width: 31%;
+}
+
+.notes{
+    text-align: left;
+    color: #b6c1d4;
+    font-size: 1rem;
+}
+
+
+/* CONTACT US */
+.Contact{
+    text-align: left;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0C1428;
+    padding: 5rem;
+    padding-bottom: 0rem;
+    padding-top: 1rem;
+    
+}
+.footsections{
+    flex-basis: 10%;
+}
+.footsections ul{
+    padding-left: 0rem;
+}
+.footsections li{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    
+}
+.footsections a{
+    color: white;
+    white-space: nowrap;
+}
+.footsections p{
+    margin-top: 1rem;
+}
+.foot{
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    margin-top: 3rem;
+} 
+.footer{
+    font-size: 1.5rem;
+}
+i{
+    font-size: 3rem;
+}

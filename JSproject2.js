@@ -1,13 +1,13 @@
+let counter = 0;
 
-let counter =0;
 const value = document.querySelector('.value');
-const buttons = document.querySelectorAll('.btn');
+const btns = document.querySelectorAll('.btn');
 
-const globalEvent =(event)=>{
-    const style = event.currentTarget.classList;
-    if(style.contains('increase')){
+const globalEvent =(events)=>{
+    const val=events.currentTarget.classList;
+    if(val.contains('increase')){
         counter++;
-    }else if(style.contains('decrease')){
+    }else if(val.contains('decrease')){
         counter--;
     }else{
         counter =0;
@@ -22,8 +22,10 @@ const globalEvent =(event)=>{
         value.style.color='black'
     }
     value.textContent= counter;
-}
+};
+btns.forEach((btn)=>{
+    btn.addEventListener('click', globalEvent);
+});
 
-buttons.forEach((btn)=>{
-    btn.addEventListener('click',globalEvent);
-})
+
+
